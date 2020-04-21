@@ -1,0 +1,39 @@
+html {
+    --background-containers: #fff; /* #333 */ 
+    --desc-color: #999999; /* #fff */
+    --border-andforeground: #1785a3; /* #fff */
+    --header-background: #1785a3; /* #333 */
+    --background: #fff; /* #000000 */
+    --container-h1foreground: #000000; /* #fff */
+    --container-hover: #fff; /* #000 */
+    --nextprevious-background: #1785a3; /* white */
+    --nextprevious-foreground: white; /* black */
+    --border: #ddd; /* #000 */
+
+    background-color: var(--background);
+}
+
+#root{ background: var(--background); }
+
+header#main-header {
+    height: 60px;
+    width: 100%;
+    background: var(--header-background);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-input {
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+label {
+    position: absolute;
+    right: 35px;
+}

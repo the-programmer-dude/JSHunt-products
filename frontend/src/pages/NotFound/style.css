@@ -1,0 +1,29 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found h1 {
+    margin-top: 15px;
+    color: var(--container-h1foreground);
+}
+
+.not-found button {
+    position: absolute;
+    margin-top: 50px;
+    border: 2px solid var(--border-andforeground);
+    background: var(--border-andforeground);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--nextprevious-foreground);
+    cursor: pointer;
+    font-size: 16px;
+
+    transition: all 0.2s;
+}
+
+.not-found button:hover {
+    background: var(--background);
+    color:var(--container-h1foreground);
+}

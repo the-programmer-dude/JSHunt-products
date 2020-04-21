@@ -1,0 +1,35 @@
+.not-allowed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-allowed h1 {
+    margin-top: 20px;
+    color: var(--container-h1foreground);
+}
+
+.not-allowed h3{
+    color: var(--container-h1foreground);
+    position: absolute;
+    top: 135px;
+}
+
+.not-allowed .product-btn {
+    position: absolute;
+    top: 180px;
+
+    text-decoration: none;
+    border-radius: 5px;
+    border: var(--border-andforeground) solid 1px;
+    background: var(--border-andforeground);
+    color: var(--container-hover);
+    padding: 10px;
+
+    transition: all 0.2s;
+}
+
+.not-allowed .product-btn:hover {
+    background: var(--container-hover);
+    color: var(--border-andforeground);
+}
